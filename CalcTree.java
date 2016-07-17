@@ -95,8 +95,8 @@ public class CalcTree
 		 */
 		for(int a = 0; a < instring.length(); a++) //Addition
 		{
-			if(instring.charAt(a) == '(') //This block of code is used to circumvent areas of the input string within parentheses
-			{
+			if(instring.charAt(a) == '(') //This block of code is used to circumvent areas of the input string within
+			{                             //parentheses
 				closure = 1;
 				while(closure != 0)
 				{
